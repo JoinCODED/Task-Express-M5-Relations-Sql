@@ -1,0 +1,29 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "In this task, you will create a banking API with the basic `CRUD` operations.",
+  "main": "accounts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoinCODED/Task-Express-M1-Intro-Crud-Banks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoinCODED/Task-Express-M1-Intro-Crud-Banks/issues"
+  },
+  "homepage": "https://github.com/JoinCODED/Task-Express-M1-Intro-Crud-Banks#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.19.0",
+    "sequelize-cli": "^6.4.1",
+    "slugify": "^1.6.5"
+  }
+}
