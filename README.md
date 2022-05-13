@@ -12,7 +12,7 @@
 4. Move the `post` create route and controller to the `author` routes and controllers.
 5. In `models/index` change the `foreignKey` to `authorId`.
 6. In the post create function, add the `author` id to the request body.
-7. In the `author`s get route, use the `include` method so that fetching teachers will fetch the list of `posts` he has.
+7. In the `author`s get route, use the `include` method so that fetching authors will fetch the list of `posts` he has.
 8. Change the `Posts` field name to `posts` using an `alias`.
 9. Create the relation ship from the other side, a `post` belongs to an `author`.
 10. In the `post` get route, make sure when fetching `posts`, we get the `author` object with each `post`.
